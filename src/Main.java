@@ -15,11 +15,11 @@ public class Main {
 		usingFileWriter("QueueLength", "OutputFiles/ChargerQueueLength.txt");
 		usingFileWriter("Cost", "OutputFiles/ChargerQueueLength.txt");
 
-		for (int i = 20; i <= 30; i++) {
+		for (int i = 20; i <= 30; i++) {	//number of drones
 			System.out.println(i);
-			for (int j = i / 2; j <= i; j++) {
+			for (int j = i / 2; j <= i; j++) {	//number of chargers
 				Rand stream = new Rand();
-				for (int k = 0; k < 10; k++) {
+				for (int k = 0; k < 10; k++) {		//number of days
 					
 					//initialize simulation
 					Simulator ss = new Simulator();
