@@ -1,2 +1,3 @@
-# OR635
-class project for OR 635
+# Discrete System Simulation Course Term Project
+
+In this project I worked with a group of two other classmates to study the potential of a hypothetical drone delivery system based out of a local Walmart store. In this simulation parameters including order arrivals, drone travel times, and drone loading times are modeled based on real information and used to evaluate the performance of different potential configurations of chargers and drones. The java simulation code works by generating events assigning them times, and then placing them in a priority queue. As events are removed from the front of the event queue and processed statistics are recorded, the simulation clock is advanced, and future events are generated and added to the queue. After running the simulation the output data is analyzed in R using boxplots, ANOVA, Tukey tests, and pairwise confidence intervals to compare the order time and cost performance of different configurations of drones and chargers.
